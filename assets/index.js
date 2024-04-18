@@ -21,6 +21,7 @@ const questions = [
         type: 'input',
         message: 'Do you have any installation instructions?',
         name: 'installation',
+        default: 'npm i',
 
     }, 
     {
@@ -42,6 +43,12 @@ const questions = [
 
     },
     {
+        type: 'list',
+        message: 'What license would you like to use for your project?',
+        name: 'license',
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+    },
+    {
         type: 'input',
         message: 'Enter your GitHub name.',
         name: 'GitHubName',
@@ -52,14 +59,8 @@ const questions = [
         message: 'Enter your email.',
         name: 'email',
 
-    },
-
-    // {
-    //     type: 'list',
-    //     message: 'What license would you like to use for your project?',
-    //     name: 'license',
-    //     choises: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None']
-    // }
+    }
+    
 ];
 
 // TODO: Create a function to write README file
