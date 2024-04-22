@@ -1,4 +1,4 @@
-# Professional README Generator Starter Code
+# Professional README Generator
 
 This application is a README generator.
 
@@ -26,6 +26,7 @@ N/A
 
 ## Mock-Up
 The following video shows the wed-site appearance and functionality:
+
 ![Getting Started](./assets/mock_up/video.gif)
 
 To watch a video open this link:
